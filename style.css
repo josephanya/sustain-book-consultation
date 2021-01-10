@@ -1,0 +1,110 @@
+body{
+    color: #003459;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+p{
+    font-size: 15px;
+    line-height: 23px;
+    margin-bottom: 30px;
+}
+
+.form-input{
+    height: 3.125rem;
+    padding: 0 13px;
+    font-size: .85rem;
+    color: #888888;
+    font-family: inherit;
+    background-color: #F6F8FA;
+    border: .5px solid #CCD5DC;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 18px;
+    width: 100%;
+}
+
+.form-select-option{
+    height: 3.125rem;
+    padding: 0 9px;
+    font-size: .85rem;
+    color: #888888;
+    font-family: inherit;
+    background-color: #F6F8FA;
+    border: .5px solid #CCD5DC;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 18px;
+    width: 100%;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #888888;
+    opacity: 1; /* Firefox */
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #888888;
+}
+  
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #888888;
+}
+
+.book-button {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 55px;
+    background-color: #1DA1F2;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    height: 3.125rem;
+}
+
+.gplay{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mynavbar{
+    padding-top: 18px;
+    padding-left: 25px;
+}
+
+.body-col{
+    padding: 60px 7% 60px 7%;
+}
+
+@media screen and (min-width: 576px) {
+    .body-col{
+        padding: 60px 22% 60px 22%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .body-col{
+        padding: 60px 27% 60px 27%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .body-col{
+        padding: 60px 31% 60px 31%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .body-col{
+        padding: 60px 34.5% 60px 34.5%;
+    }
+}
