@@ -85,6 +85,26 @@ p{
     padding: 60px 7% 60px 7%;
 }
 
+.hide{
+    display :none;
+    visibility: visible;
+}
+.show{
+    display: block;
+    visibility: visible;
+}
+#success{
+    border: 1px solid #007bff;
+    width: 80%;
+    margin: 70px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+#success p{
+    font-size: 1.4em;
+    margin-bottom: 10px
+}
+
 @media screen and (min-width: 576px) {
     .body-col{
         padding: 60px 22% 60px 22%;
@@ -94,6 +114,9 @@ p{
 @media screen and (min-width: 768px) {
     .body-col{
         padding: 60px 27% 60px 27%;
+    }
+    #success{
+        width: 50%
     }
 }
 
