@@ -93,14 +93,14 @@ p{
     display: block;
     visibility: visible;
 }
-#success{
+#success, #failure{
     border: 1px solid #007bff;
     width: 80%;
     margin: 70px auto;
     padding: 10px;
     border-radius: 10px;
 }
-#success p{
+#success p, #failure p{
     font-size: 1.4em;
     margin-bottom: 10px
 }
@@ -115,7 +115,7 @@ p{
     .body-col{
         padding: 60px 27% 60px 27%;
     }
-    #success{
+    #success, #failure{
         width: 50%
     }
 }
