@@ -34,7 +34,7 @@ const submitForm = () => {
     let token3 = atob("OVFyS0dMVGZKM2xkRGZrOVhrRUhZTzNY");
 
     let urL = `https://hooks.slack.com/services/${token1}/${token2}/${token3}`
-    let payload = {"text": `New consultation for ${bookingData.fullName} on ${bookingData.bookingDate} at ${bookingData.bookingTime}. Email: ${bookingData.email}, phone no: ${bookingData.phone}`}
+    let payload = {"text": `New consultation for ${bookingData.fullName} on ${bookingData.bookingDate} at ${bookingData.bookingTime}. Email: ${bookingData.email}, Phone no: ${bookingData.phone}`}
     let otherParam = {
         method: 'POST',
         body: JSON.stringify(payload)
