@@ -97,7 +97,7 @@ p{
     border: 1px solid #007bff;
     width: 80%;
     margin: 70px auto;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10px;
 }
 #success p, #failure p{
