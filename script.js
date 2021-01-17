@@ -46,7 +46,8 @@ const submitForm = () => {
             content.classList.add('hide');
             success.classList.remove('hide')
             success.classList.add('show');
-        }else{
+
+        }else if(!res.ok){
             content.classList.add('hide');
             failure.classList.remove('hide')
             failure.classList.add('show');
@@ -56,11 +57,7 @@ const submitForm = () => {
     .then(data=> console.log(data))
     .catch(err=>{ 
         console.log(err);
-        content.classList.add('hide');
-        failure.classList.remove('hide');
-        failure.classList.add('show');
     })
-    
 }
 
 
